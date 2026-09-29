@@ -1,5 +1,5 @@
 const num1 = 343;
- const num2 = 3321;
+ const num2 = 3912;
   // add two numbers
 const sum = num1 + num2;
   //  display the sum
