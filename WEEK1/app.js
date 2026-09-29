@@ -3,7 +3,7 @@
   // This line is essential
    console.log("starting")
  const name = prompt('Enter your name: ');
-  console.log("Hello, ${name}");
+  console.log('Hello, ${name}');
    // program that checks if the number is positive, negative or zero
  // input from the user
   const number = parseInt(prompt("Enter a number: "));
