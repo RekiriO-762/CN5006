@@ -17,7 +17,8 @@ EmployeeInfo(EmpName, EmpSalary);
 
 // Second Exercise
 const EmpSkills= (skills,Name,LabGrp)=> {
-    console.log("Student ID"+ Name+ "Expert in "+ skills)
+    console.log("Student ID"+ Name+" is a student of Uni of East London")
+    console.log("Expert in "+ skills)
     console.log("Lab Group Name ",LabGrp) 
 }
 EmpSkills("java"," u2914515 ", " CN5006 ")
