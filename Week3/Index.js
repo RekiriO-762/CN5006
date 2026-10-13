@@ -6,7 +6,7 @@ function EmployeeInfo(name, Salary)
 //Display current date and time
 const currentDateTime = new Date();
 
-console.log("This is my first program");
+console.log("This is the second exercise finished ont the 13.10.2026");
 console.log("Programe run on : " + currentDateTime.toLocaleString());
 
 var EmpName = "Jaoh";
