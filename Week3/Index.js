@@ -21,4 +21,4 @@ const EmpSkills= (skills,Name,LabGrp)=> {
     console.log("Expert in "+ skills)
     console.log("Lab Group Name ",LabGrp) 
 }
-EmpSkills("java"," u2914515 "," CN5006 ")
+EmpSkills("java"," u2914515 ","CN5006 ")
