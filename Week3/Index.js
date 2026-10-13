@@ -17,5 +17,5 @@ EmployeeInfo(EmpName, EmpSalary);
 
 function EmployeeInfo(name,Salary)
 {
-    console.log("Welcome " + name + "Your monthly Salary is" + Salary)
+    console.log("Welcome " + name + " Your monthly Salary is " + Salary)
 }
