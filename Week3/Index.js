@@ -15,5 +15,9 @@ var EmpSalary = 50000;
 // Calling function
 EmployeeInfo(EmpName, EmpSalary);
 
-
-
+// Second Exercise
+const EmpSkills= (skills,Name,LabGrp)=> {
+    console.log(" Student ID"+ Name+ "Expert in "+ skills)
+    console.log("Lab Group Name",LabGrp) 
+}
+EmpSkills("java","Replace this with your student ID", "Replace with your lab Grp")
