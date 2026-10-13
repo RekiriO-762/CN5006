@@ -22,16 +22,13 @@ const EmpSkills= (skills,Name,LabGrp)=> {
     console.log("Lab Group Name ",LabGrp) 
 }
 EmpSkills("java"," u2914515 ","CN5006 ")
-
 // code for Third Exercise
 const student= require('./Studentinfo.js')
 const person = require('./Person.js') 
-
 // Because get name is the function we use ()
 console.log("Student Name:" +student.getName())
 console.log(student.Location())
 console.log(student.dob)
-
 //Because dob is a variable so we dont use ()
 console.log(student.Studentgrade())
 console.log("grade is "+student.Studentgrade(55) )
