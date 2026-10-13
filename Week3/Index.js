@@ -24,8 +24,8 @@ const EmpSkills= (skills,Name,LabGrp)=> {
 EmpSkills("java"," u2914515 ","CN5006 ")
 
 // code for Third Exercise
-const student= require('./StudentInfo')
-const person = require('./Person') 
+const student= require('./StudentInfo,js')
+const person = require('./Person.js') 
 
 // Because get name is the function we use ()
 console.long("Student Name:" +student,getName())
