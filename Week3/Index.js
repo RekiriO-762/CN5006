@@ -28,9 +28,9 @@ const student= require('./Studentinfo.js')
 const person = require('./Person.js') 
 
 // Because get name is the function we use ()
-console.long("Student Name:" +student,getName())
-console.long(student.Location())
-console.long(student.dob)
+console.log("Student Name:" +student.getName())
+console.log(student.Location())
+console.log(student.dob)
 
 //Because dob is a variable so we dont use ()
 console.log(student.Studentgrade())
