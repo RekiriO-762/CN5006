@@ -1,0 +1,21 @@
+{
+  "name": "cn5006",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RekiriO-762/CN5006.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RekiriO-762/CN5006/issues"
+  },
+  "homepage": "https://github.com/RekiriO-762/CN5006#readme"
+}
