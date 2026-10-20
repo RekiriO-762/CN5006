@@ -35,10 +35,10 @@ const PersonSchema = new mongoose.Schema({
 
         async function insertMany() {  
             const manypersons = [   
-             { name: 'SimonNHQ', age: 42, gender: 'Male', salary: 3456 },
-             { name: 'NeeshaNN', age: 53, gender: 'Female', salary: 1000 },
-             { name: 'MaryNHQ', age: 27, gender: 'Female', salary: 5402 },
-             { name: 'MikeNJQ', age: 40, gender: 'Male', salary: 4519 }  
+             { name: 'SimonNHQ', age: 47, gender: 'Male', salary: 3456 },
+             { name: 'NeeshaNN', age: 58, gender: 'Female', salary: 1000 },
+             { name: 'MaryNHQ', age: 24, gender: 'Female', salary: 5402 },
+             { name: 'MikeNJQ', age: 34, gender: 'Male', salary: 4519 }  
             
             ];    
             
