@@ -31,6 +31,23 @@ const PersonSchema = new mongoose.Schema({
         
         }); 
 
+        // Function to insert many documents 
+
+        async function insertMany() {  
+            const manypersons = [   
+             { name: 'SimonNHQ', age: 42, gender: 'Male', salary: 3456 },
+             { name: 'NeeshaNN', age: 53, gender: 'Female', salary: 1000 },
+             { name: 'MaryNHQ', age: 27, gender: 'Female', salary: 5402 },
+             { name: 'MikeNJQ', age: 40, gender: 'Male', salary: 4519 }  
+            
+            ];    
+            
+            const result = await Person.insertMany(manypersons); 
+             console.log('Many documents inserted'); 
+             console.log(result); 
+            
+            } 
+
           const savedDoc = await doc1.save();
             console.log('One document inserted');
              console.log(savedDoc);
