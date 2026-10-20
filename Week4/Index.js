@@ -41,6 +41,7 @@ const PersonSchema = new mongoose.Schema({
                 await mongoose.connect(MONGO_URI);
                  console.log(`Connected to ${MONGO_URI}`); 
                    
+                
                  await insertOne();
                  
                 } catch (err) {    
