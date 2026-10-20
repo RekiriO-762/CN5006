@@ -60,6 +60,7 @@ const PersonSchema = new mongoose.Schema({
                    
                 
                  await insertOne();
+                 await insertMany();
                  
                 } catch (err) {    
                 
