@@ -14,11 +14,11 @@ const PersonSchema = new mongoose.Schema({
             
             });
             
-            const Person = mongoose.model(            
-        'modelname',
-         PersonSchema,
-          'personCollection' 
-        );
+const Person = mongoose.model(            
+  'Person',
+  PersonSchema,
+  'personCollection' 
+);
         
         // Function to insert one document 
         
